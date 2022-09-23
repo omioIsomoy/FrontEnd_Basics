@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="useraccount.php" method="GET">
+
+     <!-- Selecting from a list of choices -->
+      <label for="gender">Gender:</label>
+      <select id="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select><br>
+
+      <!-- For big input of texts -->
+      <label for="descripton">Description:</label>
+      <textarea id="" col="30" rows="5" placeholder="Input text...."></textarea><br>
+
+      <!-- Suggesting a list of choices -->
+      <label for="location">Location:</label>
+      <input id="location" list="location_list">
+      <datalist id="location_list">
+        <option id="Dhaka">Dhaka</option>
+        <option id="Khulna">Khulna</option>
+        <option id="Jessore">Jessore</option>
+        <option id="Barisal">Barisal</option>
+      </datalist>
+
+    </form>
+  </body>
+</html>

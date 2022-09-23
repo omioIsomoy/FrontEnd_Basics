@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+        input{
+            padding: 10px;
+        }
+        #submit{
+            padding: 5px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <form action="useraccount.php" method="GET">
+      
+      <label for="username">Username:</label><br>
+      <input id="user" type="text" required><br>
+
+      <label for="password">Password:</label><br>
+      <input id="user" name="" type="password" maxlength="5" placeholder="5 digit password"><br>
+
+      <!--auto-focus-->
+      <label for="auto-focus">Your Cursor:</label><br>
+      <input id="auto-focus" type="text" autofocus placeholder="auto_focus"><br>
+      <hr>
+
+      <!--Submit button-->
+      <input id="submit" type="submit" placeholder="Submit">
+
+    </form>
+  </body>
+</html>

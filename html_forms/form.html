@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="useraccount.php" method="GET">
+      <!-- tag: input ; attribute: type="text","password","radio" -->
+      <label for="username">Username:</label><br>
+      <input id="user" type="text"><br>
+
+      <label for="password">Password:</label><br>
+      <input id="user" name="" type="password"><br>
+      <!-- selecting single values by giving same name="" attribute -->
+      <label for="gender">Gender:</label>
+      <input id="male" type="radio" name="gender" value="Male">
+      <label for="male">Male</label>
+      <input id="female" type="radio" name="gender" value="Female">
+      <label for="female">Female</label><br>
+      <!-- selecting multiple values by giving diffrent name="" attribute -->
+      <label for="gender">Hobby:</label>
+      <input id="singing" type="radio" name="singing" value="singing">
+      <label for="singing">Singing</label>
+      <input id="traveling" type="radio" name="traveling" value="traveling">
+      <label for="traveling">Traveling</label>
+      <input id="coding" type="radio" name="coding" value="coding">
+      <label for="traveling">Coding</label>
+    </form>
+  </body>
+</html>
