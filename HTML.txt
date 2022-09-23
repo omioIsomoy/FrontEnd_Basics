@@ -1,0 +1,62 @@
+Part 1: HTML Tags
+17 Topics ->
+
+1. HTML Basics :
+
+2. HTML Elements : <p></p>, <b></b>, <section></section> etc.
+
+3. HTML Attributes : <html lang='en'></html> here 'lang' is a attribute of <html> element.
+
+4. HTML Headings : <h1> to <h6>
+
+5. HTML Paragraph : <p>, <br> =break line, <hr> =horizontal rule, <pre> =pre formatted
+
+6. HTML Style : <h1 style="text-align: center; color: red"></h1>
+
+7. HTML Formatting : <sup> =squre, <sub> =log base, <b>, <del> =delated, <u> =underline, <i> =italic, <em> =same as italic(if a voice reads the line, it will say that louder), <strong>
+
+8. HTML Quotation : <q> =quotation, <blockquote cite='facebook.com'>, <abbr title='User's name'>Somoy</abbr> =hovering over somoy will show the title text, <address>
+
+9. HTML Comment : <!--This is comment-->. Shortcut : select then, cmd + /
+
+10. HTML CSS : in head create <style>p{color: RED; text-align: center}</style>,
+<style>p,div,td{color: RED; text-align: center}</style>
+
+11. HTML Link : <a href='index2.html' target='_blank'>Click Here!</a>. index2.html will be opened in a new tab
+
+12. HTML Image : <img src='pic.png' alt='pic_hover_text style='height: 10px; width: 20px'>
+
+13. HTML Table :
+<tr> <!--Fist Table Row-->
+  <th>Name</th> <!--Table Head-->
+  <th>Age</th>
+  <th>Contact</th>
+</tr>
+<tr> <!--Second Table Row-->
+  <td>Somoy</td> <!--Table Data-->
+  <td>Age</td>
+  <td colspan='2'>Contact</td> <!--Column will take 2 cloumn spaces-->
+</tr>
+
+14. HTML List :
+<ul> <!--Unordered-->
+  <li>apple</li>
+  <li>banana</li>
+  <li>orange</li>
+</ul>
+<ol> <!--Ordered-->
+  <li>apple</li>
+  <li>banana</li>
+  <li>orange</li>
+</ol>
+<ol type='i'> <!--Ordered by roman 'i,ii' numbers-->
+  <li>apple</li>
+  <li>banana</li>
+  <li>orange</li>
+</ol>
+
+15. HTML Block and Inline : <span> =inline tag, <div>,<p> =block tag.
+
+16. HTML Id and Class : class can be used in many tags but id can not.
+
+17. HTML Iframe : <iframe src='index2.html' frameborder='2'></iframe>. index2.html's content will be shown in a small window of the current web page.
